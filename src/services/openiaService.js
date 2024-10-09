@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const apiKey = import.meta.env.OPENIA_API_KEY;
-const URL_API = import.meta.env.OPENIA_URL_API;
+const apiKey = import.meta.env.VITE_OPENIA_API_KEY;
+const URL_API = import.meta.env.VITE_OPENIA_URL_API;
 
 // Función para analizar la respuesta y evaluar por criterios específicos
 export const analyzeInterviewResponse = async (question, userResponse) => {
